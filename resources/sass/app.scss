@@ -1,3 +1,8 @@
+//Settings
+@import './components/settings';
+
+// Variables
+@import 'variables';
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
@@ -5,12 +10,18 @@
 //Fontawesome
 @import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
 
-// Variables
-@import 'variables';
+//Foundation
+@import '../../node_modules/foundation-sites/scss/foundation';
+
+
+@include foundation-everything(true);
+
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+//@import '~bootstrap/scss/bootstrap';
 
+//Custom
+@import './components/custom';
 @import './pages/landing-page';
 
 .navbar-laravel {

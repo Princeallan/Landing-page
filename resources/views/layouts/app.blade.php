@@ -26,11 +26,17 @@
 
     @include('/layouts/includes/navbar')
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
 
     </div>
     
+
+    <script>
+        
+    $(document).foundation();
+
+    </script>
 </body>
 </html>

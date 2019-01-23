@@ -1,0 +1,109 @@
+
+.top-nav {
+  background: #383d41;
+  margin: 0;
+  padding-left: 15px;
+  width: 100%;
+}
+.top-list {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+  overflow: hidden;
+
+  li{
+    padding: 10px 15px;
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+    list-style: none;
+  }
+
+}
+.top-list-right {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  float: right;
+  color: #ffffff;
+
+  li{
+    padding: 10px 15px;
+    float: left;
+    color: floralwhite;
+    font-size: 14px;
+    list-style: none;
+  }
+  a{
+    color: #fff;
+  }
+
+}
+
+.top-bar{
+  color: #ffffff;
+  background-color: rgba(184, 229, 250, 0.5) !important;
+  border: none !important;
+
+  span{
+    color: lighten($primary, 30%);
+    padding: 10px;
+    border-bottom: lightgray;
+    margin-right: 5px;
+  }
+  li{
+    text-transform: uppercase;
+  }
+  a{
+    color: #ffffff;
+  }
+  a:hover{
+    color: $secondary;
+  }
+  a.current{
+    color: $secondary;
+    border-bottom: 2px solid $secondary;
+  }
+
+}
+
+/* ShowCase */
+.showcase {
+  background: url('../../../public/images/pynade1.jpg');
+  min-height: 650px;
+  color: #ffffff;
+
+  .showcase-box {
+    padding: 20px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: $primary;
+    color: #fff555;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    p{
+      border-bottom: 1px #ccc solid;
+      padding-bottom: 10px;
+    }
+  }
+  .showcase-box-bottom{
+    background: $secondary;
+    padding: 10px 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 100px;
+
+    .pricing span{
+      font-size: 35px;
+      font-weight: bold;
+    }
+    .start-link{
+      padding-top: 20px;
+    }
+    a{
+      color: #ffffff;
+    }
+  }
+}

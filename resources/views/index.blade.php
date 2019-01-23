@@ -2,15 +2,6 @@
 
 @section('content')
 
-<!-- Anchors (links) -->
-<a href="about.html" class="button">Learn More</a>
-<a href="#features" class="button">View All Features</a>
-
-<!-- Buttons (actions) -->
-<button type="button" class="success button">Save</button>
-<button type="button" class="alert button">Delete</button>
-
-
     <div class="top-nav">
       <div class="grid-x grid-margin-x">
         <div class="large-6 medium-6 small-12 columns">
@@ -84,8 +75,5 @@
         </div>
       </div>
     </section>
-
-
-
 
 @endsection
