@@ -9,9 +9,6 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
 
 
     <!-- Fonts -->
@@ -23,6 +20,7 @@
 </head>
 <body>
     <div id="app">
+        @include('layouts.includes.top-menu')
 
         <main>
             @yield('content')
@@ -31,6 +29,8 @@
     </div>
     
 
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
     <script>
         
     $(document).foundation();

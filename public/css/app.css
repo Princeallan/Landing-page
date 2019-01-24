@@ -13363,21 +13363,26 @@ html.is-reveal-open body {
   }
 }
 
-.top-nav {
+#app {
+  overflow-x: hidden;
+  /* ShowCase */
+}
+
+#app .top-nav {
   background: #383d41;
   margin: 0;
   padding-left: 15px;
   width: 100%;
 }
 
-.top-list {
+#app .top-list {
   margin: 0;
   padding: 0px;
   list-style: none;
   overflow: hidden;
 }
 
-.top-list li {
+#app .top-list li {
   padding: 10px 15px;
   float: left;
   color: #ffffff;
@@ -13385,7 +13390,7 @@ html.is-reveal-open body {
   list-style: none;
 }
 
-.top-list-right {
+#app .top-list-right {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -13394,7 +13399,7 @@ html.is-reveal-open body {
   color: #ffffff;
 }
 
-.top-list-right li {
+#app .top-list-right li {
   padding: 10px 15px;
   float: left;
   color: floralwhite;
@@ -13402,82 +13407,79 @@ html.is-reveal-open body {
   list-style: none;
 }
 
-.top-list-right a {
+#app .top-list-right a {
   color: #fff;
 }
 
-.top-bar {
+#app .top-bar {
   color: #ffffff;
   background-color: #008080 !important;
   border: none !important;
 }
 
-.top-bar span {
+#app .top-bar span {
   color: #1affff;
   padding: 10px;
   border-bottom: lightgray;
   margin-right: 5px;
 }
 
-.top-bar li {
+#app .top-bar li {
   text-transform: uppercase;
 }
 
-.top-bar a {
+#app .top-bar a {
   color: #ffffff;
 }
 
-.top-bar a:hover {
+#app .top-bar a:hover {
   color: #83878e;
 }
 
-.top-bar a.current {
+#app .top-bar a.current {
   color: #83878e;
   border-bottom: 2px solid #83878e;
 }
 
-/* ShowCase */
-
-.showcase {
-  background: url(/images/pynade1.jpg?5adae5f587b338f16f2bcd435825afe8) no-repeat;
+#app .showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/pynade1.jpg?5adae5f587b338f16f2bcd435825afe8) no-repeat;
   min-height: 450px;
   color: #ffffff;
   background-position: center;
   background-size: cover;
 }
 
-.showcase .showcase-box {
+#app .showcase .showcase-box {
   padding: 20px 30px;
   margin-top: 30px;
-  margin-bottom: 30px;
   background: #008080;
   color: #ffffff;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.showcase .showcase-box p {
+#app .showcase .showcase-box p {
   border-bottom: 1px #ccc solid;
   padding-bottom: 10px;
 }
 
-.showcase .showcase-box-bottom {
+#app .showcase .showcase-box-bottom {
   background: #83878e;
   padding: 10px 20px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-.showcase .showcase-box-bottom .pricing span {
+#app .showcase .showcase-box-bottom .pricing span {
   font-size: 35px;
   font-weight: bold;
 }
 
-.showcase .showcase-box-bottom .start-link {
+#app .showcase .showcase-box-bottom .start-link {
   padding-top: 20px;
 }
 
-.showcase .showcase-box-bottom a {
+#app .showcase .showcase-box-bottom a {
   color: #ffffff;
 }
 
