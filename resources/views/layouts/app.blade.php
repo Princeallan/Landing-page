@@ -24,8 +24,6 @@
 <body>
     <div id="app">
 
-    @include('/layouts/includes/navbar')
-
         <main>
             @yield('content')
         </main>

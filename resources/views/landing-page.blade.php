@@ -2,22 +2,13 @@
 
 @section('content')
 
-<!-- Anchors (links) -->
-<a href="about.html" class="button">Learn More</a>
-<a href="#features" class="button">View All Features</a>
-
-<!-- Buttons (actions) -->
-<button type="button" class="success button">Save</button>
-<button type="button" class="alert button">Delete</button>
-
-
     <div class="top-nav">
       <div class="grid-x grid-margin-x">
         <div class="large-6 medium-6 small-12 columns">
           <ul class="top-list">
-            <li class="fa fa-map-marker">Nairobi, Valley Road</li>
-            <li class="fa fa-envelope-o">help@cytonn.com</li>
-            <li class="fa fa-phone">+2097977977</li>
+            <li class="fas fas-map-marker">Nairobi, Valley Road</li>
+            <li class="fas fas-envelope-o">help@cytonn.com</li>
+            <li class="fas fas-phone">+2097977977</li>
           </ul>
         </div>
         <div class="large-6 medium-6 small-12 columns">
@@ -31,7 +22,7 @@
     </div>
       <div class="top-bar" id="responsive-menu">
         <div class="top-bar-left">
-          <h3><span>Cyt</span>Pro</h3>
+          <h3><span>PYN</span>ADE</h3>
         </div>
         <div class="top-bar-right">
           <ul class="menu">

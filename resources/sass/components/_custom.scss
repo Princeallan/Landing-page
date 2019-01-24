@@ -43,7 +43,7 @@
 
 .top-bar{
   color: #ffffff;
-  background-color: rgba(184, 229, 250, 0.5) !important;
+  background-color: #008080 !important;
   border: none !important;
 
   span{
@@ -70,16 +70,18 @@
 
 /* ShowCase */
 .showcase {
-  background: url('../../../public/images/pynade1.jpg');
-  min-height: 650px;
+  background: url('../../../public/images/pynade1.jpg') no-repeat;
+  min-height: 450px;
   color: #ffffff;
+  background-position: center;
+  background-size: cover;
 
   .showcase-box {
     padding: 20px 30px;
     margin-top: 30px;
     margin-bottom: 30px;
     background: $primary;
-    color: #fff555;
+    color: #ffffff;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
@@ -93,7 +95,6 @@
     padding: 10px 20px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    margin-top: 100px;
 
     .pricing span{
       font-size: 35px;
